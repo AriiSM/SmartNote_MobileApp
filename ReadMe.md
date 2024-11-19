@@ -16,8 +16,5 @@ Smart Note is an efficient note-taking application. This repository contains two
 ## Demo Video
 To see how the application works, check out the demo video below:
 
-<video width="600" controls>
-  <source src="DemoSmartNote.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[Watch the Demo Video](DemoSmartNote.mp4)
 
