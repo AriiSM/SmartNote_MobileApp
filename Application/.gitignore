@@ -39,3 +39,4 @@ yarn-error.log*
 # Ignore temporary/public files (adjust based on necessity)
 /public/
 
+!Application/SmartNote/
