@@ -1,0 +1,85 @@
+/* Stiluri generale pentru pagina de login */
+.login-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #1e1e1e; /* Gri foarte închis */
+  padding: 20px;
+}
+
+.login-header {
+  color: #ffffff; /* Alb */
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 400px;
+  background-color: #2c2c2c; /* Gri închis */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin: auto; /* Centrează pe orizontală */
+  margin-top: 20vh;
+}
+
+.login-input {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 12px;
+  border: 1px solid #444;
+  border-radius: 8px;
+  background-color: #2c2c2c; /* Gri închis */
+  color: #ffffff; /* Alb */
+  font-size: 16px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.login-input:focus {
+  border-color: #ff9800; /* Portocaliu */
+  box-shadow: 0 0 8px rgba(255, 152, 0, 0.6); /* Portocaliu */
+  outline: none;
+}
+
+.login-button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  background-color: #ff9800; /* Portocaliu */
+  color: #ffffff; /* Alb */
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease-in-out;
+  border: none;
+  --background: #ff9800; /* Portocaliu */
+  --background-activated: #cc7a00; /* Portocaliu și mai închis */
+  --background-focused: #e68900; /* Portocaliu mai închis */
+  --background-hover: #e68900; /* Portocaliu mai închis */
+}
+
+.login-button:hover {
+  background-color: var(--background-hover); /* Portocaliu mai închis */
+  transform: scale(1.05); /* Efect de mărire */
+}
+
+.login-button:active {
+  background-color: var(--background-activated); /* Portocaliu și mai închis */
+  transform: scale(1); /* Revine la dimensiunea inițială */
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 14px;
+}

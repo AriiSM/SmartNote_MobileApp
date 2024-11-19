@@ -1,0 +1,97 @@
+/* Stil general pentru cardul de notiță */
+.note-card {
+  width: 100%;
+  max-width: 850px;
+  margin: 20px auto;
+  border-radius: 12px; /* Colțuri rotunjite pentru card */
+  background-color: #222222; /* Gri închis elegant */
+  color: #f0f0f0; /* Alb cald pentru text */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3); /* Umbra subtilă */
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Titlu pentru card */
+.note-title {
+  font-size: 4em; /* Mărire titlu pentru un aspect și mai evident */
+  font-weight: bold;
+  color: #f1c40f; /* Galben vibrant pentru titlu */
+  text-align: center; /* Centrarea textului */
+  margin-top: 0;
+  margin-bottom: 20px; /* Spatiu mai mare jos pentru un efect aerisit */
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5); /* Umbra subtilă pentru titlu */
+}
+
+/* Metadate pentru prioritate și dată */
+.note-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.1em;
+  color: #7f8c8d; /* Gri deschis pentru metadate */
+  margin-bottom: 20px;
+  padding: 0 16px;
+}
+
+/* Descrierea notei */
+.note-description {
+  font-size: 1.2em;
+  line-height: 1.6;
+  color: #bdc3c7; /* Gri deschis pentru contrast */
+  text-align: justify;
+  padding: 20px; /* Spațiu interior mai generos pentru descriere */
+  background-color: #333333; /* Fundal mai deschis pentru descriere */
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 40px; /* Distanță suplimentară față de gruparea cu poza și locația */
+}
+
+/* Statusul completării - mutat mai jos */
+.note-completed {
+  text-align: center;
+  font-size: 1.2em;
+  color: #ffa200; /* Portocaliu vibrant pentru completare */
+  font-weight: bold;
+  margin-top: 60px; /* Mărit spațiul de sus pentru a muta statusul mai jos */
+  margin-bottom: 20px;
+}
+
+/* Imagini și hartă */
+.note-images-location {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.note-images-location .note-photo {
+  height: 50vh;
+  width: 100%;
+  max-width: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.note-images-location .map-container {
+  height: 50vh;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Stil pentru butonul de home */
+.home-button {
+  background-color: #ff9800; /* Portocaliu */
+  color: #000000; /* Alb */
+  border-radius: 50%; /* Colțuri rotunjite */
+  --background: #ee9b1f; /* Portocaliu */
+  padding: 10px;
+  transition: background-color 0.3s ease, transform 0.2s ease-in-out;
+}
+
+.home-button:hover {
+  background-color: #e68900; /* Portocaliu mai închis */
+  transform: scale(1.1); /* Efect de mărire la hover */
+}

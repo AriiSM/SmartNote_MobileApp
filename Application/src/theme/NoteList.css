@@ -1,0 +1,113 @@
+/* Stiluri pentru lista de notițe */
+.note-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.note-preview {
+  width: 90%;
+  max-width: 600px;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #2c2c2c; /* Gri închis */
+  color: #ffffff; /* Alb */
+  transition: transform 0.2s, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.note-preview:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.note-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #ffffff; /* Alb */
+  text-align: left;
+  margin-bottom: 4px;
+}
+
+.note-priority {
+  color: #ff9800; /* Portocaliu */
+}
+
+.full-width-grid {
+  width: 100%;
+}
+
+.left-align {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.right-align {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.search-bar, .filter-bar {
+  --background: #2c2c2c;
+  --color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: width 0.5s ease;
+}
+
+.search-bar:focus, .filter-bar:focus {
+  box-shadow: 0 0 8px rgba(255, 152, 0, 0.6); /* Portocaliu */
+}
+
+.logout-button {
+  color: #ffffff;
+  font-size: 1.2em;
+  transition: color 0.3s ease;
+}
+
+.logout-button:hover {
+  color: #ff9800; /* Portocaliu */
+}
+
+/* Butoane de acțiune */
+.ion-button {
+  color: #ffffff;
+  font-weight: bold;
+  --background: #ff9800; /* Portocaliu */
+  --background-activated: #cc7a00; /* Portocaliu și mai închis */
+  --background-hover: #e68900; /* Portocaliu mai închis */
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.ion-button:hover {
+  background-color: var(--background-hover);
+  transform: scale(1.05);
+}
+
+.ion-button:active {
+  background-color: var(--background-activated);
+  transform: scale(1);
+}
+
+/* Stiluri pentru mesajele de eroare */
+.error-message {
+  color: #ff4d4d; /* Roșu aprins */
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Stiluri pentru modalul hărții */
+.map-modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #1e1e1e; /* Gri foarte închis */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}

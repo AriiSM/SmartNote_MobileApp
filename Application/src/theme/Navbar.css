@@ -1,0 +1,51 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px; /* Ajustează padding-ul pentru a face navbar-ul mai gros */
+  background-color: #1e1e1e; /* Dark background */
+  color: white;
+}
+
+.navbar-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  color: #ff9800; /* Portocaliu */
+  padding: 8px 16px;
+  border-radius: 5px;
+  background-color: #3a3a3a;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.navbar-title:hover {
+  background-color: #5a5a5a;
+  transform: translateY(-2px);
+}
+
+.navbar-buttons {
+  display: flex;
+  gap: 16px;
+}
+
+.ion-button {
+  --background: #3a3a3a;
+  --color: white;
+  border-radius: 5px;
+  padding: 8px 16px;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.ion-button:hover {
+  --background: #5a5a5a;
+  transform: translateY(-2px);
+}
+
+.ion-button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
