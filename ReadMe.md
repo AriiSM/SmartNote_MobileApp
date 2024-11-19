@@ -16,9 +16,4 @@ Smart Note is an efficient note-taking application. This repository contains two
 ## Demo Video
 To see how the application works, check out the demo video below:
 
-<<<<<<< HEAD
 [![Smart Note Demo]](DemoSmartNote.gif)
-=======
-[Watch the Demo Video](DemoSmartNote.mp4)
->>>>>>> d1b651b53239329bcdea0a257ed9b036a9b94541
-
