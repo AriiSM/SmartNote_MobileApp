@@ -35,7 +35,7 @@ ionic start
 Copy code
 ```bash
 `git clone https://github.com/AriiSM/SmartNote`
-cd Applicstion
+cd Application
 ```
 ### 2. Install dependencies
 Install all required dependencies using npm or yarn:
