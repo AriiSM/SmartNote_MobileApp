@@ -30,8 +30,8 @@ This project provides a RESTful API using Koa.js, with JWT-based authentication,
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/username/repository-name.git
-    cd repository-name
+    git clone https://github.com/AriiSM/SmartNote`
+    cd Server
     ```
 
 2. Install dependencies:
@@ -41,7 +41,7 @@ This project provides a RESTful API using Koa.js, with JWT-based authentication,
     ```
 
 3. Configure JSON storage files for data in the `data` directory:
-   - `data/users.json` for user data
+   - `data/notes.json` for user data
 ```{"notes": [
         {
         "titlu": "",
@@ -60,7 +60,7 @@ This project provides a RESTful API using Koa.js, with JWT-based authentication,
     ]
     }
 ```
-   - `data/notes.json` for notes data
+   - `data/users.json` for notes data
 ```
     {
     "users": [
